@@ -1,2 +1,2 @@
-# homebrew-cli
-Homebrew tap for localazy-cli distribution
+# homebrew-tools
+Homebrew tap for localazy tools
