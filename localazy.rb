@@ -1,8 +1,8 @@
 class Localazy < Formula
   desc "CLI tool for Localazy platform"
   homepage "https://localazy.com"
-  url "https://dist.localazy.com/macos/macos-v1.1.3.tar.gz"
-  sha256 "127fb4b234c56870946bf81271c63a556764652b31a40d039270f009d85df9ef"
+  url "https://dist.localazy.com/macos/macos-v1.1.4.tar.gz"
+  sha256 "57cb12e8da40600f1ddd9cbd26975b70bdfe17cf3428f520ad7751f365d9eac5"
   depends_on "curl"
 
   bottle :unneeded
