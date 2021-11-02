@@ -5,8 +5,6 @@ class Localazy < Formula
   sha256 "d406430740e250be3d27f65108f60490abd454fb4b2479b8ad09b84adf3fb4b2"
   depends_on "curl"
 
-  bottle :unneeded
-
   def install
     bin.install "localazy"
   end
