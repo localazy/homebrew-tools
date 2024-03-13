@@ -1,8 +1,8 @@
 class Localazy < Formula
   desc "CLI tool for Localazy platform"
   homepage "https://localazy.com"
-  url "https://dist.localazy.com/macos/macos-v1.7.5.tar.gz"
-  sha256 "06cdcaa87093ebcc3b0baeb186e6f6d03f4cff14f6667b089ae6c55c7a685836"
+  url "https://dist.localazy.com/macos/macos-v1.7.6.tar.gz"
+  sha256 "2268b3cece6cdea56b71df9aaa448eda75dad697c9252928720f2f2fa46b4fa0"
   depends_on "curl"
 
   def install
