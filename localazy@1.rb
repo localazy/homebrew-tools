@@ -1,4 +1,4 @@
-class Localazy < Formula
+class Localazy@1 < Formula
   desc "CLI tool for Localazy platform"
   homepage "https://localazy.com"
   url "https://dist.localazy.com/macos/macos-v1.7.15.tar.gz"
