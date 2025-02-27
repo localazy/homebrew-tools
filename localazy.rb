@@ -7,7 +7,7 @@ class Localazy < Formula
     sha256 "b11f530cc6e1744ef2424a5137fbdd802c5986e237f5a488cef84ce0372dd6b7"
   elsif Hardware::CPU.intel?
     url "https://dist.localazy.com/macos/macos-v2.0.3.tar.gz"
-    sha256 ""
+    sha256 "a916d91a2bb130eb5979751798d6e1db56752f2ab2b5202a585c2d173e9c078c"
   end
 
   depends_on "curl"
