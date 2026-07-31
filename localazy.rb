@@ -3,11 +3,11 @@ class Localazy < Formula
   homepage "https://localazy.com"
 
   if Hardware::CPU.arm?
-    url "https://dist.localazy.com/macosArm64/macos-v2.0.11.tar.gz"
-    sha256 "d2d7e288c3368c5b7cfbf7b696197934c8adf2a499a188481241d016a073ed61"
+    url "https://dist.localazy.com/macosArm64/macos-v2.0.12.tar.gz"
+    sha256 "1f2dc0ce75bdcc078c55a04bf5435eeedc0404125b9cff72c5452eb520655ae9"
   elsif Hardware::CPU.intel?
-    url "https://dist.localazy.com/macos/macos-v2.0.11.tar.gz"
-    sha256 "2c1c47406c17a7f24079bb90640726454af8389b1852f8cea3957e09160103a6"
+    url "https://dist.localazy.com/macos/macos-v2.0.12.tar.gz"
+    sha256 ""
   end
 
   depends_on "curl"
